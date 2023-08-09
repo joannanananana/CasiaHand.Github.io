@@ -1,0 +1,4 @@
+1. DVGG Deep variational grasp generation for dextrous manipulation
+2. HGC-Net Deep Anthropomorphic Hand Grasping in Clutter
+3. Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand
+4. Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation

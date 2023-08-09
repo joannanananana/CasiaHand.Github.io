@@ -1,0 +1,10 @@
+@article{wei2022dvgg,
+  title={DVGG: Deep variational grasp generation for dextrous manipulation},
+  author={Wei, Wei and Li, Daheng and Wang, Peng and Li, Yiming and Li, Wanyi and Luo, Yongkang and Zhong, Jun},
+  journal={IEEE Robotics and Automation Letters},
+  volume={7},
+  number={2},
+  pages={1659--1666},
+  year={2022},
+  publisher={IEEE}
+}

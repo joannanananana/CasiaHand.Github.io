@@ -1,0 +1,7 @@
+@article{li2023continual,
+  title={Continual Learning for Anthropomorphic Hand Grasping},
+  author={Li, Wanyi and Wei, Wei and Wang, Peng},
+  journal={IEEE Transactions on Cognitive and Developmental Systems},
+  year={2023},
+  publisher={IEEE}
+}

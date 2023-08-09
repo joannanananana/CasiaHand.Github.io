@@ -1,0 +1,9 @@
+@article{zhou2021bv,
+  title={BV-Net: Bin-based Vector-predicted Network for tubular solder joint detection},
+  author={Zhou, Chenlin and Shen, Xiaofei and Wang, Peng and Wei, Wei and Sun, Jia and Luo, Yongkang and Li, Yiming},
+  journal={Measurement},
+  volume={183},
+  pages={109821},
+  year={2021},
+  publisher={Elsevier}
+}

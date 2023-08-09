@@ -1,0 +1,9 @@
+@article{zhou2021acr,
+  title={ACR-Net: attention integrated and cross-spatial feature fused rotation network for tubular solder joint detection},
+  author={Zhou, Chenlin and Li, Daheng and Wang, Peng and Sun, Jia and Huang, Yikun and Li, Wanyi},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  volume={70},
+  pages={1--12},
+  year={2021},
+  publisher={IEEE}
+}

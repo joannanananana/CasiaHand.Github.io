@@ -1,0 +1,9 @@
+@article{li2023neuro,
+  title={Neuro-inspired continual anthropomorphic grasping},
+  author={Li, Wanyi and Wei, Wei and Wang, Peng},
+  journal={Iscience},
+  volume={26},
+  number={6},
+  year={2023},
+  publisher={Elsevier}
+}

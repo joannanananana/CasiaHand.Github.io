@@ -1,0 +1,8 @@
+@inproceedings{li2021simultaneous,
+  title={Simultaneous semantic and collision learning for 6-dof grasp pose estimation},
+  author={Li, Yiming and Kong, Tao and Chu, Ruihang and Li, Yifeng and Wang, Peng and Li, Lei},
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={3571--3578},
+  year={2021},
+  organization={IEEE}
+}

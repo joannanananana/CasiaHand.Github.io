@@ -1,0 +1,8 @@
+@inproceedings{li2022hgc,
+  title={HGC-Net: Deep anthropomorphic hand grasping in clutter},
+  author={Li, Yiming and Wei, Wei and Li, Daheng and Wang, Peng and Li, Wanyi and Zhong, Jun},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+  pages={714--720},
+  year={2022},
+  organization={IEEE}
+}
