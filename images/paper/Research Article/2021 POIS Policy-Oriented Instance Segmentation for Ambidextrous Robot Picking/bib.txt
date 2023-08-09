@@ -1,0 +1,8 @@
+@inproceedings{xu2021pois,
+  title={POIS: Policy-Oriented Instance Segmentation for Ambidextrous Robot Picking},
+  author={Xu, Guangyun and Tao, Yi and Jiang, Bowen and Wang, Peng and Luo, Yongkang and Zhong, Jun},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={743--749},
+  year={2021},
+  organization={IEEE}
+}

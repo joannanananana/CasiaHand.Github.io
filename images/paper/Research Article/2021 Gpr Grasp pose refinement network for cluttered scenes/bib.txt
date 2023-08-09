@@ -1,0 +1,8 @@
+@inproceedings{wei2021gpr,
+  title={Gpr: Grasp pose refinement network for cluttered scenes},
+  author={Wei, Wei and Luo, Yongkang and Li, Fuyu and Xu, Guangyun and Zhong, Jun and Li, Wanyi and Wang, Peng},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={4295--4302},
+  year={2021},
+  organization={IEEE}
+}

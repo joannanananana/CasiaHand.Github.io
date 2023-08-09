@@ -1,0 +1,7 @@
+@article{duan2022learning,
+  title={Learning human-to-robot dexterous handovers for anthropomorphic hand},
+  author={Duan, Haonan and Wang, Peng and Li, Yiming and Li, Daheng and Wei, Wei},
+  journal={IEEE Transactions on Cognitive and Developmental Systems},
+  year={2022},
+  publisher={IEEE}
+}

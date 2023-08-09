@@ -1,0 +1,9 @@
+@article{yu2022dexterous,
+  title={Dexterous manipulation for multi-fingered robotic hands with reinforcement learning: a review},
+  author={Yu, Chunmiao and Wang, Peng},
+  journal={Frontiers in Neurorobotics},
+  volume={16},
+  pages={861825},
+  year={2022},
+  publisher={Frontiers}
+}

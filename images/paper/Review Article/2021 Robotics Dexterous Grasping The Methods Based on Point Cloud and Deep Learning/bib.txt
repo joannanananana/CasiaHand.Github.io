@@ -1,0 +1,9 @@
+@article{duan2021robotics,
+  title={Robotics dexterous grasping: The methods based on point cloud and deep learning},
+  author={Duan, Haonan and Wang, Peng and Huang, Yayu and Xu, Guangyun and Wei, Wei and Shen, Xiaofei},
+  journal={Frontiers in Neurorobotics},
+  volume={15},
+  pages={658280},
+  year={2021},
+  publisher={Frontiers Media SA}
+}
