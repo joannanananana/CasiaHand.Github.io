@@ -106,7 +106,6 @@ right: 10px;
 .top-menu {
   float: right;
   /*position:fixed;*/
-  margin-top: 0.8em;
 }
 
 .top-menu ul li a {
@@ -140,7 +139,16 @@ right: 10px;
   margin: 0;
 }
 
-.rslides h3 {
+.rslides h3{
+  color: #fff;
+  font-size: 3.5em;
+  width: 73%;
+  margin: 5em auto 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+.rslides h4{
   color: #fff;
   font-size: 3.5em;
   width: 73%;
@@ -153,6 +161,11 @@ right: 10px;
 .rslides h3 span {
   color: #eb172b;
   font-weight: 600;
+}
+
+.rslides h4 span {
+  color: #eb172b;
+  font-weight: 500;
 }
 
 .rslides li {
@@ -258,7 +271,7 @@ a.button1:hover {
 
 .header-top {
   width: 100%;
-
+  position: fixed;
 }
 
 .header-top .logo img {
@@ -399,9 +412,14 @@ button:hover{
   display: block
 }
 .gallery1 img{
+  width: 8em;
+  height: 12em;
+  margin: auto;
+}
+.gallery2 img{
   width: 10em;
   height: 10em;
-  margin: auto
+  margin: auto;
 }
 
 .gallery1 .textbox {
@@ -440,7 +458,10 @@ button:hover{
   padding: 4em 0;
   background: #E2DECF;
 }
-
+.header-top .container{
+  justify-content: space-between;
+  width: 100%;
+}
 .col-text {
   color: #d1cef0;
   padding-top: 15px;
@@ -600,7 +621,8 @@ button:hover{
   } */
 
   .rslides h3 {
-    margin: 4em auto 1em;
+    font-size: 3em;
+    margin: 4em auto 4em 4em;
   }
 
   ul.callbacks_tabs.callbacks1_tabs {
@@ -625,6 +647,10 @@ button:hover{
 
   .rslides h3 {
     margin: 3.5em auto 1em;
+  }
+  .rslides h4 {
+    margin: 3.5em auto 1em;
+    font-size: 2em;
   }
 
   .gallery1 .textbox {
@@ -891,9 +917,7 @@ button:hover{
     padding-top: 1.5em;
   } */
 
-  .top-menu {
-    margin-top: 0.15em;
-  }
+
 
   .rslides h3 {
     font-size: 1.5em;
