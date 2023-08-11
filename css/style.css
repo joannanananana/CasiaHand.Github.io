@@ -43,10 +43,28 @@ body {
 
 .header-banner {
   background: url("../images/diguan.jpg") no-repeat;
-  background-size: cover;
-  min-height: 723px;
+  background-size: 100% auto;
+  /* min-height: 723px; */
   padding-top: 0;
   position: relative;
+}
+@media(min-width:1000px) {
+  .header-banner {
+    min-height: 723px;
+  }
+}
+@media(max-width:1000px) {
+  .header-banner {
+    min-height: 20em;
+  }
+}
+.header-left p{
+  font-size: 1.1em;
+}
+@media(max-width:1000px) {
+  .header-left p{
+    font-size: 0.5em;
+  }
 }
 
 .close-btn::before {
@@ -71,7 +89,7 @@ body {
 
 }
 
-.popup {
+.popup{
   display: none;
   position: fixed;
   z-index: 1000000;
@@ -161,15 +179,35 @@ body {
   text-transform: uppercase;
   line-height: 1.2em;
 }
-
+.paper-img{
+  width: 25%;
+}
+.paper-desp{
+  width: 75%;
+}
 .rslides h4 {
   color: #fff;
-  font-size: 3.5em;
-  width: 73%;
-  margin: 5em auto 2em;
+  width: 85%;
+  margin: 3em auto 2em;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 1.2em;
+  font-size:2.8em
+}
+@media(max-width:1000px) {
+  .rslides h4 {
+    font-weight: 180;
+    font-size:1em
+  }
+  .paper-img{
+    width: 50%;
+  }
+  .paper-desp{
+    width: 50%;
+  }
+}
+@media(min-width:1000px) {
+
 }
 
 .rslides h3 span {
@@ -196,6 +234,13 @@ body {
   margin: 5%;
   text-align: left;
 }
+@media(max-width:1000px) {
+  .blog-grids-css {
+    margin: 3%;
+  }
+}
+
+
 
 .blog-grids-csslj li {
   display: list-item;
@@ -675,8 +720,8 @@ button:hover {
   }
 
   .rslides h4 {
-    margin: 3.5em auto 1em;
-    font-size: 2em;
+    margin: 2.5em auto 1em;
+
   }
 
   .gallery1 .textbox {
@@ -938,11 +983,25 @@ button:hover {
     font-size: 0.95em;
   }
 }
+.header-left{
+  float: left;
+  width: 30%; 
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 640px) {
+  .header-left{
+    float: left;
+    width: 50%; 
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 @media (max-width: 640px) {
   .header-top .logo img {
-    height: 2em;
-    width: 2em;
+    height: 0.5em;
+    width: 4em;
 
   }
 
