@@ -41,7 +41,9 @@ body {
   font-family: 'Sansita One', cursive;
   font-family: 'Open Sans', sans-serif;
 }
-
+/* .callbacks_container{
+  padding-bottom: 20em;
+} */
 .header-banner {
   /* background: url("../images/diguan.jpg") no-repeat; */
   background-size: 100% auto;
@@ -315,10 +317,7 @@ body {
 }
 
 ul.callbacks_tabs.callbacks1_tabs {
-  position: absolute;
-  bottom: -40px;
-  z-index: 999;
-  left: 48%;
+  padding-bottom: 2em;
 
 }
 
