@@ -1,0 +1,663 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Creative Pix Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,800' rel='stylesheet' type='text/css'><link href='http://fonts.useso.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'><script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){	
+				console.log('event', event)
+				console.log('this:', this)	
+				console.log('this.hash', this.hash)	
+				console.log('$(this.hash)',$(this.hash))
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+<link rel="stylesheet" href="css/swipebox.css">
+			<script src="js/jquery.swipebox.min.js"></script> 
+			    <script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+</script>
+</head>
+<body>
+<div class="header-banner" id="head">
+	<div style="height:5em; z-index: 200;">
+	<div class="header-top ">
+			<div class="container" style="margin: 0 auto;">	
+				<div class="header-left" style="margin: 0 auto;">
+					<div class="logo" style="text-align: center; padding-bottom: 0.7em;">
+						<a href="index.html"><img src="images/logo.png"></a>
+					</div>
+					<div style="display: flex; justify-content: center; align-items: center;">
+						<p style="color:#fff; padding: auto; color: #000;">系列灵巧手与类人灵巧操作机器人</p>
+					</div>	
+				</div>
+				<div class="top-menu" style="margin: 0.5em auto;height: 100%; display: flex;">
+						<span class="menu"> </span> 
+							<ul>
+							<li><a href="#home" class="scroll">科研动态</a></li>
+							<li><a href="#Features" class="scroll">研究方向</a></li>
+							<li><a href="#blog" class="scroll">机器人</a></li>
+							<li><a href="#gallery" class="scroll">主要论文</a></li>
+							<li><a href="#members" class="scroll">人员队伍</a></li>
+							<li><a href="#contact" class="scroll">联系我们</a></li>
+							<li><a href="./index.html">中</a></li>
+							<li>|</li>
+							<li><a href="./index_en.html">EN</a></li>
+							</ul>
+					</div>
+			<div class="clearfix"> </div>
+					 <!-- script-for-menu -->
+		 <script>					
+					$("span.menu").click(function(){
+						$(".top-menu ul").slideToggle("slow" , function(){
+						});
+					});
+		 </script>
+		 <!-- script-for-menu -->
+			</div>
+		</div>
+	</div>
+		<div class="slider">
+	 <div class="container" id="home" style="justify-content: center; text-align: center;">
+		   <div class="callbacks_container">
+			  <ul class="rslides" id="slider">
+				 <li>	          
+                    <img src="images/wrc.jpg" style="width:100%">
+                    <div style="z-index: 100;">
+					<h3 style="z-index: 100;">2023世界机器人大会 <span>参展</span></h3>
+                    </div>
+					<a class="button1 hvr-shutter-in-horizontal" href="http://www.worldrobotconference.com/ex/company/32.html">详情</a>       
+				 </li>
+				 <li>	          
+                    <img src="images/lunwen3.jpg" style="width:100%; filter:opacity(40%)">
+					<h4 style="z-index: 100;">Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation <span>获ICIRA最佳学生奖 <span></h4>
+                        
+                    <a class="button1 hvr-shutter-in-horizontal" href="https://icira2023.org/index.html">详情</a>        
+				 </li>
+				 <li>	          
+                    <img src="images/aijiqiren.jpg" style="width:100%;display: inline-block;">
+					  <h3 style="z-index: 100;color:#fff"> AI+机器人:<span>类人灵巧操作机器人</span></h3>
+                        
+                      <a class="button1 hvr-shutter-in-horizontal" href="http://news.sohu.com/a/705680499_121118996">详情</a> 	          
+				 </li>
+			  </ul>
+		  </div>
+	  </div>
+		</div>
+		</div>	
+
+		
+		<div class="content">
+			<div class="feature" id="Features">
+				<div class="container">
+				<h3>研究<span>方向</span></h3>
+						<img style="width: 100%;" src="images/yanjiuneirong.jpg">
+						<p style="padding-top: 2em;color:#000;float: left; text-align: left"> <b>类人灵巧操作机器人</b>:具有接近甚至超过人类的灵巧操作能力，能够共享和使用人类的工具等基础设施,能够在工业，服务以及特种等应用领域，
+							与人类自然交互、共融和协同工作的通用型机器人。</p>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+
+
+		<div class="blog-section" id="blog">
+			<div class="container">
+
+				<h3>机器人</h3>
+				<div class="gallery-grids">
+					<div class="bottom-gallery">		
+						<p><b>系列灵巧手</b></p>				
+						<div class="col-md-3 gallery-grid gallery2">
+						<a href="images/platform/p6.jpg" class="swipebox"><img src="images/platform/p6.jpg" class="img-responsive" alt="/">
+						</a>
+						<p style="padding-top: 2em; color:#666666">casia Hand-H</h4>
+						<p style="padding-top: 0.5em; color:#666666">类人自由度版灵巧手</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2">
+						<a href="images/platform/p7.jpg" class="swipebox"><img src="images/platform/p7.jpg" class="img-responsive" alt="/">
+						</a>
+						<p style="padding-top: 2em; color:#666666">casia Hand-L</h4>
+						<p style="padding-top: 0.5em; color:#666666">轻量版灵巧手</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2">
+						<a href="images/platform/p8.jpg" class="swipebox"><img src="images/platform/p8.jpg" class="img-responsive" alt="/">
+						</a>
+						<p style="padding-top: 2em; color:#666666">casia Hand-S</h4>
+						<p style="padding-top: 0.5em; color:#666666">高速自适应版灵巧手</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2">
+							<a href="images/platform/p1.jpg" class="swipebox"><img src="images/platform/p1.jpg" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">casia Arm</h4>
+							<p style="padding-top: 0.5em; color:#666666">仿人臂</p>
+						</div>
+	
+						</div>
+
+					<div class="clearfix"> </div>
+
+					<p><b>系列类人灵巧操作机器人</b></p>
+					<div class="top-gallery" style="text-align:center" >
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/platform/p3.jpg" class="swipebox"><img src="images/platform/p3.jpg" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无忧”</h4>
+							<p style="padding-top: 0.5em; color:#666666">服务应用类人灵巧操作机器人</h4>
+						</div>
+
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/platform/p5.jpg" class="swipebox"><img src="images/platform/p5.jpg"  alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无畏”</h4>
+							<p style="padding-top: 0.5em; color:#666666">特种应用类人灵巧操作机器人</h4>
+						</div>
+
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/platform/p2.jpg" class="swipebox"><img src="images/platform/p2.jpg" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无际”</h4>
+							<p style="padding-top: 0.5em; color:#666666">工业应用类人灵巧操作机器人</p>
+						</div>
+					</div>
+
+					<p><b>具身智能AI算法</b></p>
+					<div class="top-gallery" style="text-align:center" >
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/FunctionalGrasping.gif" class="swipebox"><img src="images/FunctionalGrasping.gif" class="img-responsive"  alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">功能抓取</h4>
+						</div>
+
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/GeneralGrasping.gif" class="swipebox"><img src="images/GeneralGrasping.gif" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">通用抓取</h4>
+						</div>
+
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/ObjectHandover.gif" class="swipebox"><img src="images/ObjectHandover.gif" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">物体交接</h4>
+						</div>
+
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="iimages/Teleoperation.gif" class="swipebox"><img src="images/Teleoperation.gif" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">遥操作</h4>
+						</div>
+
+					</div>
+
+
+					
+				</div>
+		</div>
+	</div>
+			
+		
+			<div class="gallery-section" id="gallery">
+				<h3>论文</h3>
+
+				<div class="blog-grids-css">
+					<ul class="blog-grids-csslj">
+						<div style="display: flex;" class="paper">
+							<div   class="paper-img">
+								<img style="width: 100%;" src="images/paper/Research Article/2023 Generalized Anthropomorphic Functional Grasping with Minimal Demonstratio/mpic.jpg">
+							</div>
+							<div class="paper-desp" style="text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">
+								<div>
+									<p>Wei Wei, Peng Wang*, et. al., Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations, arXiv preprint arXiv:2303.17808.</p>
+									<div class="paper-desp-a">
+										<a style="padding-right: 0.35em;" href = "images/paper/Research Article/2023 Generalized Anthropomorphic Functional Grasping with Minimal Demonstratio/2303.17808.pdf">[paper]</a>
+										<a href = "https://v-wewei.github.io/sr_dexgrasp/">[project]</a>
+										<div class="popup1 popup">    
+											<div class="popup-content">   
+											<!-- <h2>弹窗标题</h2> -->
+											<p>@article{wei2023generalized,
+												title={Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations},
+												author={Wei, Wei and Wang, Peng and Wang, Sizhe},
+												journal={arXiv preprint arXiv:2303.17808},
+												year={2023}
+											  }
+											  </p>
+											<button class="close-btn" onclick="document.querySelector('.popup1').style.display='none'">关闭</button>  
+											</div>
+											</div>
+										<a ><button class="open-btn" onclick="document.querySelector('.popup1').style.display='flex'">[bib]</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					</div>
+				</div>
+
+				<div class="blog-grids-css">
+					<ul class="blog-grids-csslj">
+						<div style="display: flex;" class="paper">
+							<div   class="paper-img">
+								<img style="width: 100%;" src="images/paper/Research Article/2023 Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation/mpic.png">
+							</div>
+							<div class="paper-desp" style="text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">
+								<div>
+									<p>Yayu Huang, Zhenghan Wang, Xiaofei Shen, Qian Liu, and Peng Wang*, Human-like Dexterous Teleoperation for Anthropomorphic Hand-arm Robotic System, The 16th International Conference on Intelligent Robotics and Applications, 2023. (Best Student Paper Award) </p>
+									<div>
+										<a style="padding-right: 0.35em;" href = "images/paper/Research Article/2023 Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation/Finalpaper205Yayu Huang.pdf">[paper]</a>
+										<a href = "images/paper/Research Article/2023 Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation/GIF/2554_1688127267.gif">[demo]</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					</div>
+				</div>
+
+				<div class="blog-grids-css">
+					<ul class="blog-grids-csslj">
+						<div style="display: flex;" class="paper">
+							<div   class="paper-img">
+								<img style="width: 100%;" src="images/paper/Research Article/2023 Neuro-inspired continual anthropomorphic grasping/mpic.png">
+							</div>
+							<div class="paper-desp" style="text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">
+								<div>
+									<p>Wanyi Li, Wei Wei, Peng Wang*, Neuro-inspired Continual Anthropomorphic Grasping, iScience, Cell Press, 2023
+										</p>
+									<P>Iscience,2023</P>
+									<p>Wanyi Li, Wei Wei, and Peng Wang</p>
+									<div>
+										<a style="padding-right: 0.35em;"  href = "images/paper/Research Article/2023 Neuro-inspired continual anthropomorphic grasping/Neuro-inspired continual anthropomorphic grasping.pdf">[pdf]</a>
+										<div class="popup popup10">    
+											<div class="popup-content">   
+											<!-- <h2>弹窗标题</h2> -->
+											<p>@article{li2023neuro,
+												title={Neuro-inspired continual anthropomorphic grasping},
+												author={Li, Wanyi and Wei, Wei and Wang, Peng},
+												journal={Iscience},
+												volume={26},
+												number={6},
+												year={2023},
+												publisher={Elsevier}
+											  }</p>
+											<button class="close-btn" onclick="document.querySelector('.popup10').style.display='none'">关闭</button>  
+											</div>
+											</div>
+											<a><button class="open-btn"  onclick="document.querySelector('.popup10').style.display='flex'">[bib]</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					</div>
+				</div>
+
+				<div class="blog-grids-css">
+					<ul class="blog-grids-csslj">
+						<div style="display: flex;" class="paper">
+							<div   class="paper-img">
+								<img style="width: 100%;" src="images/paper/Research Article/2022 Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand/mpic.png">
+							</div>
+							<div class="paper-desp" style="text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">
+								<div>
+									<p>Haonan Duan, Peng Wang*, Yiming Li, Daheng Li, Wei Wei, Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand, IEEE Transactions on Cognitive and Developmental Systems, 2022.</p>
+									<div>
+										<a style="padding-right: 0.35em;" href = "images/paper/Research Article/2022 Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand/Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand.pdf">[paper]</a>
+										<a href = "images/paper/Research Article/2022 Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand/GIF/diff_position.gif">[demo]</a>
+										<div class="popup3 popup">    
+											<div class="popup-content">   
+											<!-- <h2>弹窗标题</h2> -->
+											<p>@article{duan2022learning,
+												title={Learning human-to-robot dexterous handovers for anthropomorphic hand},
+												author={Duan, Haonan and Wang, Peng and Li, Yiming and Li, Daheng and Wei, Wei},
+												journal={IEEE Transactions on Cognitive and Developmental Systems},
+												year={2022},
+												publisher={IEEE}									
+											  }</p>
+											<button class="close-btn" onclick="document.querySelector('.popup3').style.display='none'">关闭</button>  
+											</div>
+											</div>
+											<a><button class="open-btn"  onclick="document.querySelector('.popup3').style.display='flex'">[bib]</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					<a class="blog-grids-csslj" href="./paper.html">
+						<p style="font-size: 1.5em; padding-top: 3em; padding-left: 0.5em;">更多</p>
+					</a>
+					</div>
+				</div>
+
+		
+			<div class="contact-section" id="members">
+				<div class="container">
+					<h3>人员</h3>
+					<p style="color:#fff; text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">负责人<p>
+					<div class="gallery-grids">
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="https://people.ucas.ac.cn/~wangpengcasia" >
+									<img src="images/team/wangpeng.jpg" alt="/">
+								</a>
+								<div class="col-text">
+									<a href= "https://people.ucas.ac.cn/~wangpengcasia"><p style="color:#d1cef0">王鹏</p></a>
+									<p>研究员 博士生导师</p>
+								</div>
+							</div>
+
+							<div class="clearfix"> </div>
+							</div>
+							<p style="color:#fff; text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">在职员工<p>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/liwanyi.jpg" class="swipebox">
+									<img src="images/team/liwanyi.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>黎万义</p>
+									<p>副研究员</p>
+								</div>
+							</div>
+
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/luoyongkang.jpg" class="swipebox">
+									<img src="images/team/luoyongkang.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>罗永康</p>
+									<p>副研究员</p>
+								</div>
+							</div>
+							
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/sunjia.jpg" class="swipebox">
+									<img src="images/team/sunjia.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>孙佳</p>
+									<p>副研究员</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/liuqian.jpg" class="swipebox">
+									<img src="images/team/liuqian.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>刘茜</p>
+									<p>副研究员</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/zhangtianyi.jpg" class="swipebox">
+									<img src="images/team/zhangtianyi.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>张天懿</p>
+									<p>工程师</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/wangxiwei.jpg" class="swipebox">
+									<img src="images/team/wangxiwei.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>王熺炜</p>
+									<p>工程师</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/haogaoming.jpg" class="swipebox">
+									<img src="images/team/haogaoming.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>郝高明</p>
+									<p>工程师</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/wangyinglu.jpg" class="swipebox">
+									<img src="images/team/wangyinglu.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>王瑛璐</p>
+									<p>工程师</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/shenxiaofei.jpg" class="swipebox">
+									<img src="images/team/shenxiaofei.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>沈晓飞</p>
+									<p>工程师</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/shenzhou.jpg" class="swipebox">
+									<img src="images/team/shenzhou.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>申洲</p>
+									<p>工程师</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/wangsen.jpg" class="swipebox">
+									<img src="images/team/wangsen.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>王森</p>
+									<p>工程师</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/sulin.jpg" class="swipebox">
+									<img src="images/team/sulin.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>苏琳</p>
+									<p>行政助理</p>
+								</div>
+							</div>
+
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/leijing.jpg" class="swipebox">
+									<img src="images/team/leijing.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>雷静</p>
+									<p>香港中心研究助理</p>
+								</div>
+							</div>
+
+							<div class="clearfix"> </div>
+							<p style="color:#fff; text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">在读研究生<p>
+
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/weiwei.jpg" class="swipebox">
+									<img src="images/team/weiwei.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>韦伟</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/duanhaonan.jpg" class="swipebox">
+									<img src="images/team/duanhaonan.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>段昊男</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/huangyayu.jpg" class="swipebox">
+									<img src="images/team/huangyayu.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>黄亚宇</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/wangsizhe.jpg" class="swipebox">
+									<img src="images/team/wangsizhe.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>王思喆</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/yandashun.jpg" class="swipebox">
+									<img src="images/team/yandashun.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>严达舜</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/yangyifan.jpg" class="swipebox">
+									<img src="images/team/yangyifan.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>杨毅帆</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/wangzhenghan.jpg" class="swipebox">
+									<img src="images/team/wangzhenghan.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>王正涵</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/Taqiaden Alshameri.jpg" class="swipebox">
+									<img src="images/team/Taqiaden Alshameri.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>Taqiaden Alshameri</p>
+									<p>在读博士生</p>
+								</div>
+							</div>
+							
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/lidaheng.jpg" class="swipebox">
+									<img src="images/team/lidaheng.jpg" class="img-responsive" alt="/">
+								</a>
+
+								<div class="col-text">
+									<p>李大珩</p>
+									<p>在读硕士生</p>
+								</div>
+							</div>
+							<div class="col-md-3 gallery-grid gallery1">
+								<a href="images/team/dengguoqiang.jpg" class="swipebox">
+									<img src="images/team/dengguoqiang.jpg" class="img-responsive" alt="/">
+								</a>
+								<div class="col-text">
+									<p>邓国强</p>
+									<p>在读硕士生</p>
+								</div>
+							</div>
+							
+							<!-- <img src="images/magnify.png" class="img-responsive" alt="/">
+							</div>
+							</div></a>
+							<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div> -->
+						</div>
+					</div>
+
+			<div class="blog-section" id="contact">
+				<div class="container" >
+					<h3>联系我们<h3>
+                        <br><br>
+                        <div style="font-size: 0.5em; " class="foot-section">
+						<p style="float:left;">邮箱：peng_wang@ia.ac.cn</p>
+						<br><br>
+						<p style="float:left">电话：010-62554330</p>
+						<br><br>
+						<p style="float:left">地址：北京市海淀区中关村东路95号中国科学院自动化研究所</p>
+                    </div>
+				</div>
+                <br>
+                <div>
+                    <div style="display: flex; width: 100%; justify-content: space-around;">
+                        <a href="https://www.cair-cas.org.hk/" style="width: 50%;"><img src="images/zky.jpg " style="width: 40%;"></a>
+                        <a href="http://www.ia.cas.cn/" style="width: 50%;"><img src="images/zkyxg.jpg" style="width: 40%;"></a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+			</div>
+				
+				<div class="footer-section" id="contact">
+					<div class="container">
+							<div class="footer-top">
+									<p>Copyright &copy; 2023.Casia Hand All rights reserved.</p>
+							</div>
+                            
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+						document.querySelector(".close-btn").addEventListener("click", function() {
+  							document.querySelector(".popup").style.display = "none";
+							console.log('123')
+  							});
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+	
+	
+
+</body>
+</html>
