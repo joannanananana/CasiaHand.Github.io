@@ -186,7 +186,7 @@ body {
   /* left:2em; */
   display: block;
   text-align: center;
-  top: 6%;
+  top: 8%;
   color: #000000;
   font-size: 3.5em;
   width: 100%;
@@ -196,11 +196,13 @@ body {
   line-height: 1.2em;
 
 }
-
+.rslides a{
+  text-decoration: none; 
+}
 .rslides h4 {
   position: absolute;
   left: 1.9em;
-  top: 8%;
+  top: 12%;
   color: #241b1b;
   width: 85%;
   margin: 3em auto 2em;
@@ -355,8 +357,8 @@ a.button1 {
   text-decoration: none;
   text-transform: capitalize;
   position: absolute;
-  top: 28%;
-  left: 49%
+  top: 45%;
+  left: 47.5%
 }
 
 @media(max-width:640px) {
@@ -545,8 +547,8 @@ button:hover {
   height:20em;
 }
 .gallery3 img {
-  height: 35em;
-  width: 35em;
+  height: 16em;
+  width: 19em;
 }
 
 
