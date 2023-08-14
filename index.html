@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Home</title>
@@ -51,10 +51,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <div class="header-banner" id="head">
-	<div style="height:5em; z-index: 200;">
+	<div style="height:2em; z-index: 200;">
 	<div class="header-top ">
-			<div class="container">	
-				<div class="header-left">
+			<div class="container" style="margin: 0 auto;">	
+				<div class="header-left" style="margin: 0 auto;">
 					<div class="logo" style="text-align: center; padding-bottom: 0.7em;">
 						<a href="index.html"><img src="images/logo.png"></a>
 					</div>
@@ -62,14 +62,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<p style="color:#fff; padding: auto; color: #000;">系列灵巧手与类人灵巧操作机器人</p>
 					</div>	
 				</div>
-				<div class="top-menu">
+				<div class="top-menu" style="margin: 0.5em auto;height: 100%; display: flex;">
 						<span class="menu"> </span> 
 							<ul>
 							<li><a href="#home" class="scroll">科研动态</a></li>
 							<li><a href="#Features" class="scroll">研究方向</a></li>
 							<li><a href="#blog" class="scroll">机器人</a></li>
 							<li><a href="#gallery" class="scroll">主要论文</a></li>
-							<li><a href="#contact" class="scroll">人员队伍</a></li>
+							<li><a href="#members" class="scroll">人员队伍</a></li>
 							<li><a href="#contact" class="scroll">联系我们</a></li>
 							<li><a href="./index.html">中</a></li>
 							<li>|</li>
@@ -89,20 +89,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 		<div class="slider">
-	 <div class="container" id="home">
+	 <div class="container" id="home" style="justify-content: center; text-align: center;">
 		   <div class="callbacks_container">
 			  <ul class="rslides" id="slider">
 				 <li>	          
-					 <h3>2023世界机器人大会 <span>参展</span></h3>
-					<a class="button1 hvr-shutter-in-horizontal" href="http://www.worldrobotconference.com/ex/company/32.html">详情</a>       
+                    <img src="images/wrc.jpg" style="width:100%; filter:opacity(40%)">
+                    <div style="z-index: 100;">
+					<h3 style="z-index: 100;"><a href="http://www.worldrobotconference.com/ex/company/32.html">2023世界机器人大会 <span>参展</span></h3></a>
+                    </div>
+					<!-- <a class="button1 hvr-shutter-in-horizontal" href="http://www.worldrobotconference.com/ex/company/32.html">详情</a>        -->
 				 </li>
 				 <li>	          
-					 <h4>Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation <span>获ICIRA最佳学生奖 <span></h4>
-					<a class="button1 hvr-shutter-in-horizontal" href="https://icira2023.org/index.html">详情</a>        
+                    <img src="images/lunwen3.jpg" style="width:100%; filter:opacity(40%)">
+					<h4 style="z-index: 100;"><a href="https://icira2023.org/index.html">Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation <span>获ICIRA最佳学生奖 <span></a></h4>
+                        
+                    <!-- <a class="button1 hvr-shutter-in-horizontal" href="https://icira2023.org/index.html">详情</a>         -->
 				 </li>
 				 <li>	          
-					  <h3> AI+机器人:<span>类人灵巧操作机器人</span></h3>
-					 <a class="button1 hvr-shutter-in-horizontal" href="http://news.sohu.com/a/705680499_121118996">详情</a> 	          
+                    <img src="images/aijiqiren.jpg" style="width:100%;display: inline-block; filter:opacity(40%)">
+					  <h3 style="z-index: 100;color:#fff"> <a href="http://news.sohu.com/a/705680499_121118996">AI+机器人:<span>类人灵巧操作机器人</span></a></h3>
+                        
+                      <!-- <a class="button1 hvr-shutter-in-horizontal" href="http://news.sohu.com/a/705680499_121118996">详情</a> 	           -->
 				 </li>
 			  </ul>
 		  </div>
@@ -115,12 +122,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="feature" id="Features">
 				<div class="container">
 				<h3>研究<span>方向</span></h3>
-						<img style="width: 100%;" src="images/researcharea.png">
-						<p style="padding-top: 2em;color:#000"> 类人灵巧操作机器人</p>
-						<div class="research">
-						<p>具有接近甚至超过人类的灵巧操作能力，能够共享和使用人类的工具等基础设施,能够在工业，服务以及特种等应用领域，
-						与人类自然交互、共融和协同工作的通用型机器人。</p>
-						</div>
+						<p style="padding-top: 2em;color:#000;float: left; text-align: left"> <b style="font-size:1.8em">类人灵巧操作机器人:</b>具有接近甚至超过人类的灵巧操作能力，能够共享和使用人类的工具等基础设施,能够在工业，服务以及特种等应用领域，
+							与人类自然交互、共融和协同工作的通用型机器人。</p>
+						<img style="padding-top: 2em;width: 100%;" src="images/yanjiuneirong.jpg">
 						<div class="clearfix"></div>
 					</div>
 				</div>
@@ -131,61 +135,140 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 
 				<h3>机器人</h3>
+				<br>
 				<div class="gallery-grids">
-					<div class="top-gallery">
-					<p>系列灵巧手</p>
-					<div class="col-md-3 gallery-grid gallery2">
-						<a href="images/platform/p3.jpg" class="swipebox"><img src="images/platform/p3.jpg" class="img-responsive" alt="/">
+					<div class="bottom-gallery">		
+						<p style="font-size:1.8em"><b>系列灵巧手</b></p>				
+						<div class="col-md-3 gallery-grid gallery2">
+						<a href="images/platform/p6.jpg" class="swipebox"><img src="images/platform/p6.jpg" class="img-responsive" alt="/">
 						</a>
-						<p style="padding-top: 2em; color:#666666">服务应用类人灵巧操作机器人</h4>
+						<p style="padding-top: 2em; color:#666666">Casia Hand-H</h4>
+						<p style="padding-top: 0.5em; color:#666666">类人自由度版灵巧手</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2">
+						<a href="images/platform/p7.jpg" class="swipebox"><img src="images/platform/p7.jpg" class="img-responsive" alt="/">
+						</a>
+						<p style="padding-top: 2em; color:#666666">Casia Hand-L</h4>
+						<p style="padding-top: 0.5em; color:#666666">轻量版灵巧手</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2">
+						<a href="images/platform/p8.jpg" class="swipebox"><img src="images/platform/p8.jpg" class="img-responsive" alt="/">
+						</a>
+						<p style="padding-top: 2em; color:#666666">Casia Hand-S</h4>
+						<p style="padding-top: 0.5em; color:#666666">高速自适应版灵巧手</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2">
+							<a href="images/platform/p1.jpg" class="swipebox"><img src="images/platform/p1.jpg" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">Casia Arm</h4>
+							<p style="padding-top: 0.5em; color:#666666">仿人臂</p>
+						</div>
+	
 					</div>
 
-					<div class="col-md-3 gallery-grid gallery2">
-						<a href="images/platform/p5.jpg" class="swipebox"><img src="images/platform/p5.jpg" class="img-responsive" alt="/">
-						</a>
-						<p style="padding-top: 2em; color:#666666">特种应用类人灵巧操作机器人</h4>
-					</div>
-
-					<div class="col-md-3 gallery-grid gallery2">
-						<a href="images/platform/p2.jpg" class="swipebox"><img src="images/platform/p2.jpg" class="img-responsive" alt="/">
-						</a>
-						<p style="padding-top: 2em; color:#666666">工业应用类人灵巧操作机器人</p>
-					</div>
-					
 					<div class="clearfix"> </div>
-					</div>
 
+					<div class="gallery-grids">
+						<div class="bottom-gallery">		
+							<p style="font-size:1.8em"><b>系列类人灵巧操作机器人</b></p>				
+							<div class="col-md-3 gallery-grid gallery2">
+							<a href="images/platform/p3.jpg" class="swipebox tphei"><img src="images/platform/p3.jpg" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无忧”</h4>
+							<p style="padding-top: 0.5em; color:#666666">服务应用类人灵巧操作机器人</h4>
+							</div>
+		
+							<div class="col-md-3 gallery-grid gallery2">
+							<a href="images/platform/p5.jpg" class="swipebox tphei"><img src="images/platform/p5.jpg" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无畏”</h4>
+							<p style="padding-top: 0.5em; color:#666666">特种应用类人灵巧操作机器人</h4>
+							</div>
+		
+							<div class="col-md-3 gallery-grid gallery2">
+							<a href="images/platform/p2.jpg" class="swipebox tphei"><img src="images/platform/p2.jpg" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无际”</h4>
+							<p style="padding-top: 0.5em; color:#666666">工业应用类人灵巧操作机器人</h4>
+							</div>
+
+							<div class="col-md-3 gallery-grid gallery2 gallery3" style="height:0em;margin:0 auto;visibility: hidden" >
+								
+								</a>
+							</div>
+		
+						</div>
+					
+					<!--
+					<p style="font-size:1.8em"><b>系列类人灵巧操作机器人</b></p>
+					<div class="top-gallery" >
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/platform/p3.jpg" class="swipebox"><img src="images/platform/p3.jpg" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无忧”</h4>
+							<p style="padding-top: 0.5em; color:#666666">服务应用类人灵巧操作机器人</h4>
+						</div>
+
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/platform/p5.jpg" class="swipebox"><img src="images/platform/p5.jpg"  alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无畏”</h4>
+							<p style="padding-top: 0.5em; color:#666666">特种应用类人灵巧操作机器人</h4>
+						</div>
+					
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="margin:0 auto">
+							<a href="images/platform/p2.jpg" class="swipebox"><img src="images/platform/p2.jpg" alt="/">
+							</a>
+							<p style="padding-top: 2em; color:#666666">“无际”</h4>
+							<p style="padding-top: 0.5em; color:#666666">工业应用类人灵巧操作机器人</p>
+						</div>
+
+						<div class="col-md-3 gallery-grid gallery2 gallery3" style="height:0em;margin:0 auto;visibility: hidden" >
+							<a href="images/platform/p2.jpg" class="swipebox"><img src="images/platform/p2.jpg" alt="/">
+							</a>
+						</div>
+					</div>
+				-->
+					<div class="clearfix"> </div>
 
 					<div class="bottom-gallery">		
-					<p>系列类人灵巧操作机器人</p>				
-					<div class="col-md-3 gallery-grid gallery2">
-					<a href="images/platform/p6.jpg" class="swipebox"><img src="images/platform/p6.jpg" class="img-responsive" alt="/">
-					</a>
-					<p style="padding-top: 2em; color:#666666">类人自由度版灵巧手</h4>
-					</div>
-
-					<div class="col-md-3 gallery-grid gallery2">
-					<a href="images/platform/p7.jpg" class="swipebox"><img src="images/platform/p7.jpg" class="img-responsive" alt="/">
-					</a>
-					<p style="padding-top: 2em; color:#666666">轻量版灵巧手</h4>
-					</div>
-
-					<div class="col-md-3 gallery-grid gallery2">
-					<a href="images/platform/p8.jpg" class="swipebox"><img src="images/platform/p8.jpg" class="img-responsive" alt="/">
-					</a>
-					<p style="padding-top: 2em; color:#666666">高速自适应版灵巧手</h4>
-					</div>
-
-					<div class="col-md-3 gallery-grid gallery2">
-						<a href="images/platform/p1.jpg" class="swipebox"><img src="images/platform/p1.jpg" class="img-responsive" alt="/">
+						<p style="font-size:1.8em"><b>具身智能AI算法</b></p>				
+						<div class="col-md-3 gallery-grid gallery2 gallery3">
+						<a href="images/FunctionalGrasping.gif" class="swipebox"><img src="images/FunctionalGrasping.gif" class="img-responsive" alt="/">
 						</a>
-						<p style="padding-top: 2em; color:#666666">仿人臂</p>
-					</div>
+						<p style="padding-top: 0.5em; color:#666666">类人功能性精细抓取与工具使用</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2 gallery3">
+						<a href="images/GeneralGrasping.gif" class="swipebox"><img src="images/GeneralGrasping.gif" class="img-responsive" alt="/">
+						</a>						
+						<p style="padding-top: 0.5em; color:#666666">类人多样化物体通用抓取</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2 gallery3">
+						<a href="images/ObjectHandover.gif" class="swipebox"><img src="images/ObjectHandover.gif" class="img-responsive" alt="/">
+						</a>						
+						<p style="padding-top: 0.5em; color:#666666">人—机器人类人物体交接</h4>
+						</div>
+	
+						<div class="col-md-3 gallery-grid gallery2 gallery3">
+							<a href="images/Teleoperation.gif" class="swipebox"><img src="images/Teleoperation.gif" class="img-responsive" alt="/">
+							</a>
+							<p style="padding-top: 0.5em; color:#666666">人机融合智能增强操作</p>
+						</div>
+	
+						</div>
 
-					</div>
+					
+
+					
 				</div>
+				</div>
+			</div>
 		</div>
-	</div>
 			
 		
 			<div class="gallery-section" id="gallery">
@@ -195,13 +278,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul class="blog-grids-csslj">
 						<div style="display: flex;" class="paper">
 							<div   class="paper-img">
-								<img style="width: 100%;" src="images/paper/Research Article/Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations/mpic.jpg">
+								<img style="width: 100%;" src="images/paper/Research Article/2023 Generalized Anthropomorphic Functional Grasping with Minimal Demonstratio/mpic.jpg">
 							</div>
 							<div class="paper-desp" style="text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">
 								<div>
 									<p>Wei Wei, Peng Wang*, et. al., Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations, arXiv preprint arXiv:2303.17808.</p>
-									<div>
-										<a href = "images/paper/Research Article/Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations/2303.17808.pdf">[paper]</a>
+									<div class="paper-desp-a">
+										<a style="padding-right: 0.4em;" href = "images/paper/Research Article/2023 Generalized Anthropomorphic Functional Grasping with Minimal Demonstratio/2303.17808.pdf">[paper]</a>
 										<a href = "https://v-wewei.github.io/sr_dexgrasp/">[project]</a>
 										<div class="popup1 popup">    
 											<div class="popup-content">   
@@ -216,14 +299,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<button class="close-btn" onclick="document.querySelector('.popup1').style.display='none'">关闭</button>  
 											</div>
 											</div>
-										<a><button class="open-btn" onclick="document.querySelector('.popup1').style.display='flex'">[bib]</button></a>
+										<a ><button class="open-btn" onclick="document.querySelector('.popup1').style.display='flex'">[bib]</button></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</ul>
 					</div>
-				</div>
+				
 
 				<div class="blog-grids-css">
 					<ul class="blog-grids-csslj">
@@ -235,7 +318,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div>
 									<p>Yayu Huang, Zhenghan Wang, Xiaofei Shen, Qian Liu, and Peng Wang*, Human-like Dexterous Teleoperation for Anthropomorphic Hand-arm Robotic System, The 16th International Conference on Intelligent Robotics and Applications, 2023. (Best Student Paper Award) </p>
 									<div>
-										<a href = "images/paper/Research Article/2023 Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation/Finalpaper205Yayu Huang.pdf">[paper]</a>
+										<a style="padding-right: 0.35em;" href = "images/paper/Research Article/2023 Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation/Finalpaper205Yayu Huang.pdf">[paper]</a>
 										<a href = "images/paper/Research Article/2023 Human-like Dexterous Manipulation for the Anthropomorphic Hand-arm Robotic System via Teleoperation/GIF/2554_1688127267.gif">[demo]</a>
 									</div>
 								</div>
@@ -243,7 +326,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</ul>
 					</div>
-				</div>
+				
 
 				<div class="blog-grids-css">
 					<ul class="blog-grids-csslj">
@@ -258,7 +341,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<P>Iscience,2023</P>
 									<p>Wanyi Li, Wei Wei, and Peng Wang</p>
 									<div>
-										<a href = "images/paper/Research Article/2023 Neuro-inspired continual anthropomorphic grasping/Neuro-inspired continual anthropomorphic grasping.pdf">[pdf]</a>
+										<a   href = "images/paper/Research Article/2023 Neuro-inspired continual anthropomorphic grasping/Neuro-inspired continual anthropomorphic grasping.pdf">[paper]</a>
 										<div class="popup popup10">    
 											<div class="popup-content">   
 											<!-- <h2>弹窗标题</h2> -->
@@ -293,7 +376,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div>
 									<p>Haonan Duan, Peng Wang*, Yiming Li, Daheng Li, Wei Wei, Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand, IEEE Transactions on Cognitive and Developmental Systems, 2022.</p>
 									<div>
-										<a href = "images/paper/Research Article/2022 Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand/Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand.pdf">[paper]</a>
+										<a style="padding-right: 0.4em;" href = "images/paper/Research Article/2022 Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand/Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand.pdf">[paper]</a>
 										<a href = "images/paper/Research Article/2022 Learning Human-to-Robot Dexterous Handovers for Anthropomorphic Hand/GIF/diff_position.gif">[demo]</a>
 										<div class="popup3 popup">    
 											<div class="popup-content">   
@@ -308,7 +391,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<button class="close-btn" onclick="document.querySelector('.popup3').style.display='none'">关闭</button>  
 											</div>
 											</div>
-											<a><button class="open-btn"  onclick="document.querySelector('.popup3').style.display='flex'">Bibtex</button></a>
+											<a><button class="open-btn"  onclick="document.querySelector('.popup3').style.display='flex'">[bib]</button></a>
 									</div>
 								</div>
 							</div>
@@ -318,10 +401,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<p style="font-size: 1.5em; padding-top: 3em; padding-left: 0.5em;">更多</p>
 					</a>
 					</div>
-				</div>
+
+			
+			</div>
 
 		
-			<div class="contact-section">
+			<div class="contact-section" id="members">
 				<div class="container">
 					<h3>人员</h3>
 					<p style="color:#fff; text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">负责人<p>
@@ -461,7 +546,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 
 							<div class="clearfix"> </div>
-							<p style="color:#fff; text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">在读硕士生<p>
+							<p style="color:#fff; text-align: left; font-size: 1em; margin-left: 0.9em; line-height: 1.3em">在读研究生<p>
 
 							<div class="col-md-3 gallery-grid gallery1">
 								<a href="images/team/weiwei.jpg" class="swipebox">
@@ -564,11 +649,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="clearfix"> </div> -->
 						</div>
 					</div>
+
+			<div class="gallery-section" id="contact">
+				<div class="container" >
+					<h3>联系我们<h3>
+                        <br><br>
+                        <div style="font-size: 0.5em"   class="foot-section">
+						<p style="float:center;">邮箱：peng_wang@ia.ac.cn</p>
+						<br><br>
+						<p style="float:center">电话：010-62554330</p>
+						<br><br>
+						<p style="float:center">地址：北京市海淀区中关村东路95号中国科学院自动化研究所</p>
+                    </div>
+				</div>
+                <br>
+                <div>
+                    <div style="width: 100%;">
+                        <a href="http://www.ia.cas.cn/" style="width: 20%;"><img src="images/zky.jpg " style="width: 15%;"></a>
+                        <a href="https://www.cair-cas.org.hk/" style="width: 20%;"><img src="images/zkyxg.jpg" style="width: 15%;"></a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+			</div>
+				
 				<div class="footer-section" id="contact">
 					<div class="container">
 							<div class="footer-top">
 									<p>Copyright &copy; 2023.Casia Hand All rights reserved.</p>
-								</div>
+							</div>
+                            
 					<script type="text/javascript">
 						$(document).ready(function() {
 							/*
