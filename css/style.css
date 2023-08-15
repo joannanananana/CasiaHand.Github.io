@@ -547,11 +547,8 @@ button:hover {
 
 
 .gallery3 img {
-  height: 25em;
+  height: 15em;
   width: auto;
-  vertical-align: middle;
-  display: flex;
-  align-items: center;
 }
 
 
