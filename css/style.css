@@ -547,8 +547,8 @@ button:hover {
 
 
 .gallery3 img {
-  height: auto;
-  width: 18em;
+  height: 25em;
+  width: auto;
   vertical-align: middle;
   display: flex;
   align-items: center;
@@ -557,9 +557,10 @@ button:hover {
 
 @media (max-width: 640px) {
   .gallery3 img {
-    width: 19em;
-    height: 20em;
+    width: auto;
+    height: 18em;
   }
+
 }
 
 .gallery1 .textbox {
