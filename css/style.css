@@ -5,7 +5,9 @@ body a {
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
-
+button{
+  padding: 0 0 0 0.4em;
+}
 input[type="button"] {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
