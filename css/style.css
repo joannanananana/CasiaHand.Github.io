@@ -552,7 +552,7 @@ button:hover {
 
 .gallery3 img {
   height: 35em;
-  width: 35em;
+  width: auto;
 }
 
 
