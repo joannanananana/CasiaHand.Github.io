@@ -545,14 +545,13 @@ button:hover {
 }
 
 
-.tphei img {
-  width: auto;
-  height: 20em;
-}
 
 .gallery3 img {
-  height: 19em;
-  width: auto;
+  height: auto;
+  width: 18em;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 
