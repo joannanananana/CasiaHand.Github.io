@@ -41,6 +41,7 @@ body {
   font-family: 'Sansita One', cursive;
   font-family: 'Open Sans', sans-serif;
 }
+
 /* .callbacks_container{
   padding-bottom: 20em;
 } */
@@ -166,7 +167,7 @@ body {
 
 .slider {
   position: relative;
-  top:0;
+  top: 0;
   width: 100%;
   text-align: center;
 }
@@ -185,7 +186,7 @@ body {
   /* left:2em; */
   display: block;
   text-align: center;
-  top:0.2em;
+  top: 8%;
   color: #000000;
   font-size: 3.5em;
   width: 100%;
@@ -195,10 +196,15 @@ body {
   line-height: 1.2em;
 
 }
+
+.rslides a {
+  text-decoration: none;
+}
+
 .rslides h4 {
   position: absolute;
-  left:1.9em;
-  top:0.2em;
+  left: 1.9em;
+  top: 12%;
   color: #241b1b;
   width: 85%;
   margin: 3em auto 2em;
@@ -217,10 +223,10 @@ body {
 }
 
 
-.rslides img{
+.rslides img {
   position: relative;
   left: 0;
-  top:0;
+  top: 0;
 
 }
 
@@ -353,14 +359,15 @@ a.button1 {
   text-decoration: none;
   text-transform: capitalize;
   position: absolute;
-  top:40em;
-  left:47%
+  top: 45%;
+  left: 47.5%
 }
-@media(max-width:640px){
+
+@media(max-width:640px) {
   a.button1 {
     position: absolute;
-    top:12em;
-    left:44%;
+    top: 45%;
+    left: 47.15%;
   }
 }
 
@@ -445,12 +452,14 @@ a.button1:hover {
   color: #000;
   font-weight: 600;
 }
+
 @media(max-width:640px) {
-  .feature p{
+  .feature p {
     padding-left: 1em;
     padding-right: 1em;
-    font-size:0.7em;
-}}
+    font-size: 0.7em;
+  }
+}
 
 .feature-grid h4 {
   font-size: 1.5em;
@@ -501,7 +510,6 @@ button:hover {
 
 .gallery-section h3 {
   font-size: 2.5em;
-  text-transform: capitalize;
   margin-bottom: 1.5em;
   color: #000;
   font-weight: 600;
@@ -526,23 +534,31 @@ button:hover {
   height: 12em;
   margin: auto;
 }
-.gallery-grids .top-gallery{
+
+.gallery-grids .top-gallery {
   display: flex;
   width: 100%;
 }
+
 .gallery2 {
   font-size: 1em;
 }
-.gallery3 img {
-  height: 15em;
+
+.tphei img {
   width: auto;
+  height: 20em;
+}
+
+.gallery3 img {
+  height: 40em;
+  width: 40em;
 }
 
 
-@media (max-width: 640px){
-  .gallery3  img{
-    width: 10em;
-    height: 7em;
+@media (max-width: 640px) {
+  .gallery3 img {
+    width: 19em;
+    height: 20em;
   }
 }
 
@@ -666,6 +682,7 @@ button:hover {
   display: block;
   margin: 10px 0;
 }
+
 .contact-form form textarea {
   height: 150px;
   resize: none;
@@ -700,15 +717,15 @@ button:hover {
   padding: 3em 0;
   text-align: center;
   background-color: #ffffff;
-  color:#000000
-  
+  color: #000000
 }
 
-@media(max-width:640px){
-.foot-section{
-  padding-left:2em
+@media(max-width:640px) {
+  .foot-section {
+    padding-left: 2em;
+  }
 }
-}
+
 .footer-top p {
   font-size: 17px;
   color: #000000;
@@ -934,7 +951,7 @@ button:hover {
     font-size: 2em;
     margin: 3em auto 1em;
   }
-  
+
 
   a.button1 {
     font-size: 0.95em;
@@ -1052,6 +1069,7 @@ button:hover {
   display: flex;
   justify-content: center;
 }
+
 .header-left-paper {
   float: left;
   width: 45%;
@@ -1066,6 +1084,7 @@ button:hover {
     display: flex;
     justify-content: center;
   }
+
   .header-left-paper {
     float: left;
     width: 80%;
@@ -1073,8 +1092,9 @@ button:hover {
     font-size: 0.72em;
     justify-content: space-between;
   }
-  .header-left p{
-    font-size:0.7em ;
+
+  .header-left p {
+    font-size: 0.7em;
   }
 }
 
@@ -1444,4 +1464,5 @@ button:hover {
 
   .footer-top p {
     font-size: 13px;
-  }}
+  }
+}
